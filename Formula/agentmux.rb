@@ -1,17 +1,17 @@
 class Agentmux < Formula
   desc "Let your AI agents message each other: local MCP server for agent-to-agent asks"
   homepage "https://agentmux.dev"
-  version "1.0.3"
+  version "1.0.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/agentmuxhq/agentmux-mcp/releases/download/v1.0.3/agentmux-cli-1.0.3-darwin-arm64.tar.gz"
-      sha256 "11d1916a47ea8290f8f8a891eb014747fdf5972fd6b6e047c48274406d7019f8"
+      url "https://github.com/agentmuxhq/agentmux-mcp/releases/download/v1.0.4/agentmux-cli-1.0.4-darwin-arm64.tar.gz"
+      sha256 "353866e57ee1add9ef4317fd8f1c1693be18d3ac38425dfac98790b53da177e1"
     end
     on_intel do
-      url "https://github.com/agentmuxhq/agentmux-mcp/releases/download/v1.0.3/agentmux-cli-1.0.3-darwin-x64.tar.gz"
-      sha256 "c65a1c1754a7813106001edefdda95f28d57347b18b7c3e49a2069866395fd0e"
+      url "https://github.com/agentmuxhq/agentmux-mcp/releases/download/v1.0.4/agentmux-cli-1.0.4-darwin-x64.tar.gz"
+      sha256 "e4e167c581f718b8f6f3971eadc19a759fda7e53e3df575e2f5cd99d474176fa"
     end
   end
 
